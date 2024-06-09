@@ -829,6 +829,18 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text-list {
+  list-style-type: disc;
+  padding-left: 32px;
+  font-size: inherit;
+  font-weight: var(--fw-300);
+  color: var(--light-gray);
+}
+
+.timeline-text-link {
+  color: var(--vegas-gold);
+  text-decoration: underline;
+}
 
 /**
  * skills 
