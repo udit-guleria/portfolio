@@ -787,8 +787,7 @@ main {
 }
 
 .certification-link {
-  text-decoration: underline;
-  color: var(--white-2);
+  color: var(--vegas-gold);
 }
 
 .clients-item img:hover { filter: grayscale(0); }
