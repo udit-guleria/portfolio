@@ -575,6 +575,16 @@ main {
   line-height: 1.6;
 }
 
+.service-item-list {
+  color: var(--light-gray);
+}
+
+.service-item-list li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1em;
+}
 
 /**
  * #testimonials 
