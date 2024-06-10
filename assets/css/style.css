@@ -841,11 +841,17 @@ main {
 }
 
 .timeline-text-list {
-  list-style-type: disc;
   padding-left: 32px;
   font-size: inherit;
   font-weight: var(--fw-300);
   color: var(--light-gray);
+}
+
+.timeline-text-list li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1em;
 }
 
 .timeline-text-link {
