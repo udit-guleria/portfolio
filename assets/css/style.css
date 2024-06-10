@@ -219,6 +219,17 @@ article {
 
 article { display: none; }
 
+#resume-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.download-button {
+  margin-left: 10px;
+  color: var(--vegas-gold) !important;
+}
+
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
