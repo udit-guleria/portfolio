@@ -209,6 +209,10 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
+.location {
+  color: var(--white-1) !important;
+}
+
 .company-logo {
   
 }
