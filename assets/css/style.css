@@ -210,7 +210,7 @@ article {
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 .company-logo {
-  box-shadow: 0 0 0 2px var(--jet);
+  
 }
 
 article { display: none; }
