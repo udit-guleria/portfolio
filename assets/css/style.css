@@ -1036,6 +1036,10 @@ main {
   margin-bottom: 15px;
 }
 
+.project-border-radius-2 {
+  border-radius: 8px !important;
+}
+
 .project-img::before {
   content: "";
   position: absolute;
@@ -1680,6 +1684,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-modal {
     gap: 35px;
+    max-width: 1020px;
   }
 
   .modal-avatar-box img { width: 80px; }
