@@ -21,17 +21,21 @@ const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
-// project variables
-const projectItem = document.querySelectorAll("[data-project-item]");
-const projectModalContainer = document.querySelector("[data-project-modal-container]");
-const projectModalCloseBtn = document.querySelector("[data-project-modal-close-btn]");
-const projectOverlay = document.querySelector("[data-project-overlay]");
-
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalDate = document.querySelector("[data-modal-date]");
 const modalText = document.querySelector("[data-modal-text]");
+
+// project variables
+const projectItem = document.querySelectorAll("[data-project-item]");
+const projectModalContainer = document.querySelector("[data-project-modal-container]");
+const projectModalCloseBtn = document.querySelector("[data-project-modal-close-btn]");
+const projectOverlay = document.querySelector("[data-project-overlay]");
+// modal variable
+const projectModalImg = document.querySelector("[data-project-modal-img]");
+const projectModalTitle = document.querySelector("[data-project-modal-title]");
+const projectModalText = document.querySelector("[data-project-modal-text]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -71,10 +75,10 @@ for (let i = 0; i < projectItem.length; i++) {
 
   projectItem[i].addEventListener("click", function () {
 
-    modalImg.src = this.querySelector("[data-project-avatar]").src;
-    modalImg.alt = this.querySelector("[data-project-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-project-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-project-text]").innerHTML;
+    projectModalImg.src = this.querySelector("[data-project-avatar]").src;
+    projectModalImg.alt = this.querySelector("[data-project-avatar]").alt;
+    projectModalTitle.innerHTML = this.querySelector("[data-project-title]").innerHTML;
+    projectModalText.innerHTML = this.querySelector("[data-project-text]").innerHTML;
 
     projectModalFunc();
 
