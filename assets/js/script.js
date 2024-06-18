@@ -34,6 +34,7 @@ const projectModalCloseBtn = document.querySelector("[data-project-modal-close-b
 const projectOverlay = document.querySelector("[data-project-overlay]");
 // modal variable
 const projectModalImg = document.querySelector("[data-project-modal-img]");
+const projectModalLink = document.querySelector("[data-project-modal-link]");
 const projectModalTitle = document.querySelector("[data-project-modal-title]");
 const projectModalText = document.querySelector("[data-project-modal-text]");
 
@@ -77,6 +78,8 @@ for (let i = 0; i < projectItem.length; i++) {
 
     projectModalImg.src = this.querySelector("[data-project-avatar]").src;
     projectModalImg.alt = this.querySelector("[data-project-avatar]").alt;
+    projectModalLink.href = this.querySelector("[data-project-link]").href;
+    projectModalLink.innerHTML = this.querySelector("[data-project-link]").innerHTML;
     projectModalTitle.innerHTML = this.querySelector("[data-project-title]").innerHTML;
     projectModalText.innerHTML = this.querySelector("[data-project-text]").innerHTML;
 
