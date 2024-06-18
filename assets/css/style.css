@@ -1980,3 +1980,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.modal-panel-project-list {
+  position: absolute;
+  top: 10%;
+  max-height: 80%; /* Adjust the height as needed */
+  overflow-y: auto;  /* Enables vertical scrolling */
+  padding: 10px;     /* Optional: Adjust padding as needed */
+  margin: 0;         /* Remove default margin */
+  list-style-type: none; /* Remove default list styling */
+}
