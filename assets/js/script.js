@@ -38,6 +38,11 @@ const projectModalLink = document.querySelector("[data-project-modal-link]");
 const projectModalTitle = document.querySelector("[data-project-modal-title]");
 const projectModalText = document.querySelector("[data-project-modal-text]");
 
+// panel project variables
+const panelProjectItem = document.querySelectorAll("[data-panel-project-item]");
+const panelProjectModalContainer = document.querySelector("[data-panel-project-modal-container]");
+const panelProjectOverlay = document.querySelector("[data-panel-project-overlay]");
+
 // modal toggle function
 const testimonialsModalFunc = function () {
   modalContainer.classList.toggle("active");
@@ -93,6 +98,23 @@ for (let i = 0; i < projectItem.length; i++) {
 projectModalCloseBtn.addEventListener("click", projectModalFunc);
 projectOverlay.addEventListener("click", projectModalFunc);
 
+// modal toggle function
+const panelProjectModalFunc = function () {
+  panelProjectModalContainer.classList.toggle("active");
+  panelProjectOverlay.classList.toggle("active");
+}
+
+// add click event to all modal items
+for (let i = 0; i < panelProjectItem.length; i++) {
+
+  panelProjectItem[i].addEventListener("click", function () {
+    panelProjectModalFunc();
+  });
+
+}
+
+// add click event to modal close button
+panelProjectOverlay.addEventListener("click", panelProjectModalFunc);
 
 
 // custom select variables
