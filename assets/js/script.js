@@ -83,8 +83,8 @@ for (let i = 0; i < projectItem.length; i++) {
 
     projectModalImg.src = this.querySelector("[data-project-avatar]").src;
     projectModalImg.alt = this.querySelector("[data-project-avatar]").alt;
-    projectModalLink.href = this.querySelector("[data-project-link]").href;
-    projectModalLink.innerHTML = this.querySelector("[data-project-link]").innerHTML;
+    projectModalLink.href = this.querySelector("[data-project-link-href]").innerHTML;
+    projectModalLink.innerHTML = this.querySelector("[data-project-link-text]").innerHTML;
     projectModalTitle.innerHTML = this.querySelector("[data-project-title]").innerHTML;
     projectModalText.innerHTML = this.querySelector("[data-project-text]").innerHTML;
 
