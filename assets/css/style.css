@@ -1991,6 +1991,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   list-style-type: none; /* Remove default list styling */
 }
 
-.width-100 {
-  width: 100% !important;
+.project-modal-thumb-size {
+  width: 300px !important;
 }
