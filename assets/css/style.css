@@ -1992,5 +1992,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .project-modal-thumb-size {
+  max-width: 100% !important;
   width: 300px !important;
 }
