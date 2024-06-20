@@ -1990,3 +1990,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin: 0;         /* Remove default margin */
   list-style-type: none; /* Remove default list styling */
 }
+
+.width-100 {
+  width: 100% !important;
+}
