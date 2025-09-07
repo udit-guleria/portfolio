@@ -849,34 +849,72 @@
           </div>
 
           <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="product">
+           <li class="project-item active" data-filter-item data-category="product" data-panel-project>
+                <!-- Marketing Dashboard start -->
   <a href="#">
     <div data-project-item>
       <figure class="project-img">
         <div class="project-item-icon-box">
           <ion-icon name="eye-outline"></ion-icon>
         </div>
-        <img src="./docs/portfolio/thumbs/marketing_analytics.png" alt="Cross-Channel Marketing Analytics Dashboard" loading="lazy" data-project-avatar>
+        <img src="./docs/portfolio/thumbs/marketing_analytics.png"
+             alt="Cross-Channel Marketing Analytics Dashboard"
+             loading="lazy" data-project-avatar>
       </figure>
       <h3 class="project-title" data-project-title>Cross-Channel Marketing Analytics Dashboard</h3>
       <p class="project-category">Product</p>
-
-      <!-- Hidden payload for modal -->
-      <div style="display: none;">
-        <p data-project-text>
-          Built an automated, scalable reporting stack for paid media and web performance with full-funnel visibility.
-          <br><br>
-          • Built cross-channel marketing analytics pipeline in <b>Python</b> to unify <b>Google Ads</b>, <b>Facebook Ads</b>, and web analytics; implemented <b>ETL workflows</b> and <b>QA checks</b>, automating daily refresh with <b>GitHub Actions → Google Sheets</b>.<br>
-          • Designed interactive <b>Tableau</b> and <b>Looker Studio</b> dashboards with KPIs (CTR, CPC, CPA, ROAS), funnels, and channel trends; automated workflows to enable real-time performance tracking.
-          <br><br>
-          <i>Stack:</i> Python, Pandas, GitHub Actions, Google Sheets, Looker Studio, Tableau Public.
-        </p>
-        <div data-project-link-text>View Live Dashboard >></div>
-        <div data-project-link-href>YOUR_LOOKER_STUDIO_SHARE_LINK</div>
-      </div>
     </div>
   </a>
+
+  <!-- ↓↓↓ This hidden block is what powers the panel modal ↓↓↓ -->
+  <div style="display: none;">
+    <ul data-panel-project-content>
+      <li class="project-modal">
+        <div class="modal-img-wrapper project-modal-thumb-size">
+          <figure class="modal-avatar-box project-img project-border-radius-2 project-modal-thumb-size">
+            <img class="project-modal-thumb-size"
+                 src="./docs/portfolio/thumbs/marketing_analytics.png"
+                 alt="Cross-Channel Marketing Analytics Dashboard">
+          </figure>
+        </div>
+        <div class="modal-content">
+          <h4 class="h3 modal-title">Cross-Channel Marketing Analytics Dashboard</h4>
+          <div>
+            <p>
+              Automated reporting suite for paid media + web, with daily refresh and full-funnel KPIs.
+              <br><br>
+              • Built cross-channel marketing analytics pipeline in <b>Python</b> to unify <b>Google Ads</b>, <b>Facebook Ads</b>, and web analytics; implemented <b>ETL workflows</b> and <b>QA checks</b>, automating daily refresh with <b>GitHub Actions → Google Sheets</b>.<br>
+              • Designed interactive <b>Tableau</b> and <b>Looker Studio</b> dashboards with KPIs (CTR, CPC, CPA, ROAS), funnels, and channel trends; automated workflows for real-time tracking.
+              <br><br>
+              <i>Stack:</i> Python, Pandas, GitHub Actions, Google Sheets, Looker Studio, Tableau Public
+            </p>
+
+            <!-- CTA buttons -->
+            <p>
+              <a href="https://lookerstudio.google.com/u/0/reporting/7b65f315-dcfd-467b-9743-fd97d0780152/page/be2WF" target="_blank" class="read-more-link" rel="noopener">
+                View Live Dashboard (Looker Studio) »
+              </a><br>
+              <a href="https://public.tableau.com/app/profile/udit.singh.guleria/viz/shared/Z685S2TBR" target="_blank" class="read-more-link" rel="noopener">
+                View Tableau Snapshot »
+              </a><br>
+              <a href="./docs/portfolio/case_studies/marketing_analytics_case_study.pdf" target="_blank" class="read-more-link">
+                Read Case Study (PDF) »
+              </a><br>
+              <a href="https://github.com/udit-guleria/marketing-analytics-portfolio" target="_blank" class="read-more-link" rel="noopener">
+                View Code (GitHub) »
+              </a>
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- ↑↑↑ End hidden modal payload ↑↑↑ -->
 </li>
+
+
+
+
             
             <li class="project-item active" data-filter-item data-category="product" data-panel-project>
             <!-- Helping Hands Start -->
